@@ -16,7 +16,7 @@ export const getReceiverSocketId = (receiverId) => {
   return userSocketMap[receiverId];
 };
 
-const userSocketMap = {}; // {userId: socketId}
+const userSocketMap = {}; // {usexrId: socketId}
 
 io.on("connection", (socket) => {
   console.log("a user connected", socket.id);
