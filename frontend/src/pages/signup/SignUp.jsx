@@ -5,11 +5,11 @@ import { GenderCheckbox } from "./GenderCheckbox";
 
 export const SignUp = () => {
   const [inputs, setInputs] = useState({
-    fullName: " ",
-    username: " ",
-    password: " ",
+    fullName: "",
+    username: "",
+    password: "",
     confirmPassword: "",
-    gender: " ",
+    gender: "",
   });
 
   const { loading, signup } = useSignup();
